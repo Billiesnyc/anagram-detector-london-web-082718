@@ -10,7 +10,7 @@ class Anagram
     answer_holder = []
     array.each do |answer| 
       if answer.split("").sort == @word.split("").sort
-        answer_holder << answer
+        answer_holder.push(answer)
       end
     end
   end
