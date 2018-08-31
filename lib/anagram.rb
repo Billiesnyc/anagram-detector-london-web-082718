@@ -11,6 +11,7 @@ class Anagram
       if answer.split("") == @word.split("")
         return answer
       end
+    end
   end
   
 end
