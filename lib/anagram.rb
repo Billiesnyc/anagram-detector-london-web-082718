@@ -13,6 +13,7 @@ class Anagram
         answer_holder.push(answer)
       end
     end
+    answer_holder
   end
   
 end
