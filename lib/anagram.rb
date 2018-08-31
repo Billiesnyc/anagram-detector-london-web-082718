@@ -7,8 +7,10 @@ class Anagram
   end
   
   def match(array)
-    array.each do |answers| 
-      answers.split("") == @word.split("")
+    array.each do |answer| 
+      if answer.split("") == @word.split("")
+        return answer
+      end
   end
   
 end
